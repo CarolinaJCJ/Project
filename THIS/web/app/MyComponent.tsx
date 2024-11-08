@@ -1,14 +1,18 @@
 'use client';
 
+import Swal from "sweetalert2";
+
 export function Pedrito() {
   
   return (
     <>
     <button onClick={
       () => {
-        console.log("Hola")
+        Swal.fire("Good Joob Carolina uwu!");
       }
-    }> Hola </button>
+    }> Inicio </button>
     </>
   )
 }
+
+
