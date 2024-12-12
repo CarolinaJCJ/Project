@@ -15,3 +15,7 @@ export function Boton(props: { children: React.ReactNode } & { nombre: string })
     </>
   );
 }
+
+
+//tengo que hacer mas de 1 export por function??
+//mi orden claramente debe estar afectando no?
